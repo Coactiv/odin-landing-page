@@ -80,6 +80,7 @@ footer {
 
 .hero {
     background-color: #1f2937;
+    gap: 24px;
 }
 
 .hero-header {
