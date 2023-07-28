@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100&display=swap');
+
 * {
     box-sizing: border-box;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 body {
@@ -34,12 +36,12 @@ header {
 
 button {
     background-color: #3882f6;
-    border: none;
     border-radius: 4px;
     padding: 6px 24px;
     font-weight: 600;
     font-size: 10px;
     color: #f9faf8;
+    border: 1px solid #f9faf8
 }
 
 blockquote {
@@ -133,13 +135,51 @@ blockquote {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    font-weight: 100;
 }
 
 .quote-source {
     display: flex;
     justify-content: flex-end;
     font-size: 20px;
-    font-weight: 900;
+    font-style: normal;
+    font-weight: 700;
     padding-right: 10px;
 }
+
+.cta-container {
+    background-color: #3882f6;
+    display: flex;
+    padding: 24px 64px;
+    gap: 50px;
+    flex-wrap: wrap;
+    border-radius: 4px;
+}
+
+.cta-text {
+    color: #f9faf8;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cta {
+    flex: 6;
+}
+
+.su-text {
+    color: #e5e7eb;
+}
+
+.cta-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    margin-left: 48px;
+}
+
+.button {
+    border: none;
+}
+
 
